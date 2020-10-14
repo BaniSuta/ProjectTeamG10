@@ -1,0 +1,143 @@
+*{
+	box-sizing: border-box;
+}
+
+header{
+	background-color: darkblue;
+	float: left;
+	width: 100%;
+	line-height: 50px;
+	position: fixed;
+	z-index: 10;
+}
+
+.main{
+	background-image: url("foto/main.png");
+	background-size: cover;
+}
+
+.judul{
+	padding: 180px;
+	color: white;
+}
+
+.head-list li{
+	list-style: none;
+	float: right;
+	margin: 0px 20px;
+	font-size: 20px;
+	background-color: white;
+	color: black;
+	padding: 5px 15px;
+	opacity: 0.5;
+}
+
+li:hover {
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+.kanan{
+	width: 65px;
+	float: right;
+	margin-right: 40px;
+	display: none;
+}
+
+.kanan:hover {
+	opacity: 1;
+}
+
+.logo{
+	float: left;
+}
+
+.barang img{
+	width: 100%;
+}
+
+.barang{
+	margin-top: 1000px;
+	width: 20%;
+	margin: 2.5%;
+	border: 1px solid darkblue;
+	float: left;
+	position: relative;
+}
+
+.tombol{
+	background-color: darkblue;
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin: 20px;
+	text-align: center;
+	color: white;
+	text-align: center;
+}
+
+.tombol:hover {
+	background-color: blue;
+	transition: all 0.5s;
+}
+
+.tombolh{
+	width: 200px;
+	background-color: darkblue;
+	padding: 5px 10px;
+	border-radius: 10px;
+	margin: 20px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.tombolh:hover {
+	background-color: blue;
+	transition: 0.5s;
+}
+
+.nama{
+	text-align: center;
+	background-color: darkblue;
+	line-height: 25px;
+	color: white;
+}
+
+.status{
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	margin-right: 5px;
+	text-align: right;
+}
+
+table{
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+}
+
+tr{
+	line-height: 50px;
+}
+
+.contak img{
+	width: 100%;
+}
+
+.satu{
+		float: left;
+	}
+
+.dua{
+	float: right;
+}
+
+footer{
+	float: left;
+	background-color: darkblue;
+	width: 100%;
+	text-align: center;
+}
