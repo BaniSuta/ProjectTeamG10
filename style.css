@@ -13,7 +13,7 @@ header{
 
 .main{
 	background-image: url("main.png");
-	background-size: cover;
+	<!--background-size: cover;--!>
 }
 
 .judul{
