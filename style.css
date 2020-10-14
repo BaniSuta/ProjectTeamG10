@@ -12,7 +12,7 @@ header{
 }
 
 .main{
-	background-image: url("main.png");
+	background-image: src("main.png");
 	background-size: cover;
 }
 
