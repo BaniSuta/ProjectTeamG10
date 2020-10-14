@@ -1,0 +1,56 @@
+@media all and (max-width: 1000px) {
+	.barang{
+		width: 45%;
+	}
+
+	.judul{
+		font-size :10px;
+		padding: 180px 160px;
+	}
+
+	.status{
+		font-size: 25px;
+	}
+
+	table{
+		float: none;
+	}
+
+	.contak img{
+		float: none;
+		width: 100%;
+	}
+
+	.satu{
+		float: none;
+	}
+
+	.dua{
+		float: none;
+	}
+}
+
+@media all and (max-width: 700px){
+	.barang{
+		width: 100%;
+		margin :20px 0px;
+	}
+
+	.status{
+		font-size: 40px;
+	}
+
+	.head-list{
+		display: none;
+	}
+
+	.kanan{
+		display: block;
+	}
+
+	.judul{
+		padding: 180px 10px;
+	}
+
+
+}
